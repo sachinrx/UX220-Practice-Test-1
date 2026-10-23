@@ -3,15 +3,90 @@
 
 <head>
     <title>Question 3</title>
+
+    <style>
+        body,
+        h1,
+        h2,
+        p {
+            font-weight: 400;
+        }
+
+        header {
+            color: white;
+            background-color: blue;
+        }
+
+        footer {
+            color: white;
+            background-color: green;
+        }
+
+        main {
+            color: black;
+            background-color: wheat;
+        }
+
+        .noun {
+            font-weight: 600;
+        }
+    </style>
+
     <!-- 
 Write an article using semantic markup, header, footer, main and section. In the article compare and contrast old fashioned typesetting with desktop pubishing, html and css.
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
 </head>
 
 <body>
+
+    <header>
+        <h1>
+            <span class="noun">Typesetting</span> and
+            <span class="noun">Web Design</span>
+        </h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Old Fashioned Typesetting</h2>
+            <p>
+                Old fashioned typesetting involved arranging letters and text
+                manually for printing. Making changes could take a lot of time
+                because the layout had to be adjusted by hand.
+            </p>
+        </section>
+
+        <section>
+            <h2>Desktop Publishing</h2>
+            <p>
+                Desktop publishing moved this process onto computers. It made
+                it easier to arrange text, images, and page layouts before
+                printing and allowed changes to be made much faster.
+            </p>
+        </section>
+
+        <section>
+            <h2>HTML and CSS</h2>
+            <p>
+                HTML and CSS are used to create content for the web. HTML
+                provides the structure of a webpage while CSS controls its
+                appearance. Unlike traditional typesetting, web content can
+                also be changed and displayed on different screen sizes.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            <span class="noun">HTML</span> and
+            <span class="noun">CSS</span> are used for web publishing.
+        </p>
+    </footer>
+
 </body>
 
 </html>
